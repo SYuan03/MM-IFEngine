@@ -46,6 +46,7 @@ Performance of existing MLLMs on MM-IFEval. We report the accuracy of easy and d
 
 ## 🚀 Evaluate on MM-IFEval
 ### 1. Environment Setup
+see requirements.txt
 
 ### 2. Run Evaluation Script
 ```python
@@ -67,5 +68,13 @@ zsh eval_mmifeval/sh_scripts/multi_run_inf_and_score.sh
 
 ## 📝 Citation
 ```bibtex
-
+@misc{ding2025mmifenginemultimodalinstructionfollowing,
+      title={MM-IFEngine: Towards Multimodal Instruction Following}, 
+      author={Shengyuan Ding and Shenxi Wu and Xiangyu Zhao and Yuhang Zang and Haodong Duan and Xiaoyi Dong and Pan Zhang and Yuhang Cao and Dahua Lin and Jiaqi Wang},
+      year={2025},
+      eprint={2504.07957},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.07957}, 
+}
 ```
