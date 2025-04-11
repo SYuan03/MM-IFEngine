@@ -1,5 +1,4 @@
-# Creation-MMBench: Assessing Context-Aware Creative Intelligence in MLLM
-
+# MM-IFEngine: Towards Multimodal Instruction Following
 <div align="center">
 
 [📃[Paper](https://arxiv.org/abs/2504.07957)]
