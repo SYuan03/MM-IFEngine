@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[📃[Paper]()]
+[📃[Paper](https://arxiv.org/abs/2504.07957)]
 [🌐[Project Page](https://syuan03.github.io/MM-IFEngine/)]
-[🤗[Hugging Face]()]
+[🤗[Hugging Face](https://github.com/SYuan03/MM-IFEngine)]
 [🛠️[Evaluation](https://github.com/SYuan03/MM-IFEngine)]
 </div>
 
@@ -13,8 +13,7 @@
 </div>
 
 ## 📣 What's New
-- **[2025.3.xx]** The ProjectPage，Benchmark and Evaluation Code is all released ! 🎉🎉🎉
-- **[2025.3.xx]** The MM-IFEngine Paper is released! Check it at 📃[Arxiv: MM-IFEngine]() ! Our Dataset will be open-sourced soon ! 🎉🎉🎉
+- **[2025.4.11]** Our MM-IFEngine Paper is released ! Check it at 📃[Arxiv: MM-IFEngine](https://arxiv.org/abs/2504.07957) ! Our Dataset will be open-sourced soon ! 🎉🎉🎉
 
 ## 🌟 Highlights
 <div align="center">
@@ -46,6 +45,7 @@ Performance of existing MLLMs on MM-IFEval. We report the accuracy of easy and d
 
 ## 🚀 Evaluate on MM-IFEval
 ### 1. Environment Setup
+
 see requirements.txt
 
 ### 2. Run Evaluation Script
