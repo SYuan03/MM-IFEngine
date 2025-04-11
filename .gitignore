@@ -1,0 +1,52 @@
+.idea
+.vscode/**
+data/**
+logs/**
+eval_results*/**
+eval_mmifeval/sh_scripts/self/**
+
+.env
+
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+*.jsonl
+
+# Data
+!**/alpaca-data-conversation.json
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+
+checkpoints
+ckpts*
+
+.ipynb_checkpoints
+*.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+.history
+
+models
+outputs
+log_dir
+**.tsv
+volc_dlc.py
+demo-task.yaml
+**.pdf
