@@ -62,7 +62,7 @@ torchrun --nproc-per-node=2 run.py --data MMIFEval --model Qwen2.5-VL-7B-Instruc
 
 
 
-### Option 2 : Evaluation using this repo
+### Option 2: Evaluation using this repo
 
 #### 1. Environment Setup
 
