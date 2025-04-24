@@ -88,13 +88,10 @@ zsh eval_mmifeval/sh_scripts/multi_run_inf_and_score.sh
 
 ## 📝 Citation
 ```bibtex
-@misc{ding2025mmifenginemultimodalinstructionfollowing,
-      title={MM-IFEngine: Towards Multimodal Instruction Following}, 
-      author={Shengyuan Ding and Shenxi Wu and Xiangyu Zhao and Yuhang Zang and Haodong Duan and Xiaoyi Dong and Pan Zhang and Yuhang Cao and Dahua Lin and Jiaqi Wang},
-      year={2025},
-      eprint={2504.07957},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2504.07957}, 
+@article{ding2025mm,
+  title={MM-IFEngine: Towards Multimodal Instruction Following},
+  author={Ding, Shengyuan and Wu, Shenxi and Zhao, Xiangyu and Zang, Yuhang and Duan, Haodong and Dong, Xiaoyi and Zhang, Pan and Cao, Yuhang and Lin, Dahua and Wang, Jiaqi},
+  journal={arXiv preprint arXiv:2504.07957},
+  year={2025}
 }
 ```
