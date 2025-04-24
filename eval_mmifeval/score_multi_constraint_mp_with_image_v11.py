@@ -243,12 +243,12 @@ def run_once_without_image(pt, retry=5):
     return ret_code, ans, response
 
 
-def calculate_score(json_resp):
-    score = 0
-    for key, value in json_resp.items():
-        if value == "true":
-            score += 1
-    return score
+# def calculate_score(json_resp):
+#     score = 0
+#     for key, value in json_resp.items():
+#         if value == "true":
+#             score += 1
+#     return score
 
 
 # extract score from gpt_resp

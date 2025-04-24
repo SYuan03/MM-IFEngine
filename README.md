@@ -12,6 +12,7 @@
 </div>
 
 ## 📣 What's New
+- **[2025.4.24]** [MMIFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit). You can directly evaluate your model on MMIFEval with it !🎉🎉🎉
 - **[2025.4.11]** Our MM-IFEngine Paper is released ! Check it at 📃[Arxiv: MM-IFEngine](https://arxiv.org/abs/2504.07957) ! Our Dataset will be open-sourced soon ! 🎉🎉🎉
 
 ## 🌟 Highlights
@@ -43,11 +44,31 @@ MLLMs on MM-IFInstruct-23k via SFT and MM-IFDPO-23k via DPO.
 Performance of existing MLLMs on MM-IFEval. We report the accuracy of easy and difficult problems and the average accuracy across all problems. The C-Level and P-Level refer to the compose-level and perception-level problems, respectively. The best performance in each section is highlighted in bold.
 
 ## 🚀 Evaluate on MM-IFEval
-### 1. Environment Setup
+### Option 1 (Recommended): Evaluation using [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit)
+
+```bash
+# Note: Default snapshot of judge model (gpt-4o) in VLMEvalkit is currently gpt-4o-2024-05-13.
+
+# When running with `python`, only one VLM instance is instantiated.
+# API MODEL
+python run.py --data MMIFEval --model GPT4o_MINI --reuse --verbose --api-nproc 8
+# HF MODEL
+python run.py --data MMIFEval --model Qwen2.5-VL-7B-Instruct --reuse --verbose --api-nproc 8
+
+# When running with `torchrun`, one VLM instance is instantiated on each GPU. It can speed up the inference.
+# HF MODEL
+torchrun --nproc-per-node=2 run.py --data MMIFEval --model Qwen2.5-VL-7B-Instruct --reuse --verbose --api-nproc 8
+```
+
+
+
+### Option 2 : Evaluation using this repo
+
+#### 1. Environment Setup
 
 see requirements.txt
 
-### 2. Run Evaluation Script
+#### 2. Run Evaluation Script
 ```python
 # Step1: finish the config below in eval_mmifeval/sh_scripts/multi_run_inf_and_score.sh
 # <---- param settings ---->
