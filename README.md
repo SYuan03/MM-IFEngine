@@ -12,7 +12,7 @@
 </div>
 
 ## 📣 What's New
-- **[2025.4.24]** [MMIFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit). You can directly evaluate your model on MMIFEval with it !🎉🎉🎉
+- **[2025.4.24]** [MMIFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit). You can directly evaluate your model on MMIFEval with it ! Usage see [Evaluation using VLMEvalkit](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit) or more on Official repo of [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit) ! 🎉🎉🎉
 - **[2025.4.11]** Our MM-IFEngine Paper is released ! Check it at 📃[Arxiv: MM-IFEngine](https://arxiv.org/abs/2504.07957) ! Our Dataset will be open-sourced soon ! 🎉🎉🎉
 
 ## 🌟 Highlights
