@@ -12,7 +12,7 @@
 </div>
 
 ## 📣 What's New
-- **[2025.4.24]** [MMIFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit). You can directly evaluate your model on MMIFEval with it ! Usage see [Evaluation using VLMEvalkit](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit) or more on Official repo of [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit) ! 🎉🎉🎉
+- **[2025.4.24]** [MM-IFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit). You can directly evaluate your model on MM-IFEval with it ! Usage see [Evaluation using VLMEvalkit](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit) or more on Official repo of [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit) ! 🎉🎉🎉
 - **[2025.4.11]** Our MM-IFEngine Paper is released ! Check it at 📃[Arxiv: MM-IFEngine](https://arxiv.org/abs/2504.07957) ! Our Dataset will be open-sourced soon ! 🎉🎉🎉
 
 ## 🌟 Highlights
@@ -51,13 +51,16 @@ Performance of existing MLLMs on MM-IFEval. We report the accuracy of easy and d
 
 # When running with `python`, only one VLM instance is instantiated.
 # API MODEL
-python run.py --data MMIFEval --model GPT4o_MINI --reuse --verbose --api-nproc 8
+python run.py --data MM-IFEval --model GPT4o_MINI --reuse --verbose --api-nproc 8
 # HF MODEL
-python run.py --data MMIFEval --model Qwen2.5-VL-7B-Instruct --reuse --verbose --api-nproc 8
+python run.py --data MM-IFEval --model Qwen2.5-VL-7B-Instruct --reuse --verbose --api-nproc 8
+
 
 # When running with `torchrun`, one VLM instance is instantiated on each GPU. It can speed up the inference.
 # HF MODEL
-torchrun --nproc-per-node=2 run.py --data MMIFEval --model Qwen2.5-VL-7B-Instruct --reuse --verbose --api-nproc 8
+torchrun --nproc-per-node=2 run.py --data MM-IFEval --model Qwen2.5-VL-7B-Instruct --reuse --verbose --api-nproc 8
+# Set custom judge model and work-dir
+torchrun --nproc-per-node=2 run.py --data MM-IFEval --model Qwen2-VL-7B-Instruct --judge gpt-4.1 --reuse --verbose --api-nproc 8 --work-dir ./outputs_gpt_4_1
 ```
 
 
@@ -70,7 +73,7 @@ see requirements.txt
 
 #### 2. Run Evaluation Script
 ```python
-# Step1: finish the config below in eval_mmifeval/sh_scripts/multi_run_inf_and_score.sh
+# Step1: finish the config below in eval_MM-IFEval/sh_scripts/multi_run_inf_and_score.sh
 # <---- param settings ---->
 PROJECT_DIR=
 CONDA_ACTIVATE_PATH=
@@ -82,7 +85,7 @@ model_bench_pairs=(
 # <---- param settings ---->
 
 # Step2: run the script
-zsh eval_mmifeval/sh_scripts/multi_run_inf_and_score.sh
+zsh eval_MM-IFEval/sh_scripts/multi_run_inf_and_score.sh
 ```
 
 
