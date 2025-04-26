@@ -3,8 +3,8 @@
 
 [📃[Paper](https://arxiv.org/abs/2504.07957)]
 [🌐[Project Page](https://syuan03.github.io/MM-IFEngine/)]
-[🤗[Hugging Face](https://github.com/SYuan03/MM-IFEngine)]
-[🛠️[Evaluation](https://github.com/SYuan03/MM-IFEngine)]
+[🤗[Hugging Face](https://huggingface.co/datasets/ChrisDing1105/MMIF-23k)]
+[🛠️[Evaluation](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit)]
 </div>
 
 <div align="center">
@@ -12,8 +12,9 @@
 </div>
 
 ## 📣 What's New
-- **[2025.4.24]** [MM-IFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/open-compass/VLMEvalKit). You can directly evaluate your model on MM-IFEval with it ! Usage see [Evaluation using VLMEvalkit](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit) or more on Official repo of [VLMEvalkit](https://github.com/open-compass/VLMEvalKit) ! 🎉🎉🎉
-- **[2025.4.11]** Our MM-IFEngine Paper is released ! Check it at 📃[Arxiv: MM-IFEngine](https://arxiv.org/abs/2504.07957) ! Our Dataset will be open-sourced soon ! 🎉🎉🎉
+- **[2025.4.26]** We have included both the SFT and DPO data in [ChrisDing1105/MMIF-23k](https://huggingface.co/datasets/ChrisDing1105/MMIF-23k) as part of **version 1.0** of the dataset. Feel free to download it! We are also planning to release **version 1.1** soon, scheduled for May! 🎉🎉🎉
+- **[2025.4.24]** [MM-IFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/open-compass/VLMEvalKit). You can directly evaluate your model on MM-IFEval with it! Usage see [Evaluation using VLMEvalkit](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit) or more on the Official repo of [VLMEvalkit](https://github.com/open-compass/VLMEvalKit)! 🎉🎉🎉
+- **[2025.4.11]** Our MM-IFEngine Paper is released! Check it at 📃[Arxiv: MM-IFEngine](https://arxiv.org/abs/2504.07957) ! Our Dataset will be open-sourced soon! 🎉🎉🎉
 
 ## 🌟 Highlights
 <div align="center">
