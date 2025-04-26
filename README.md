@@ -12,7 +12,7 @@
 </div>
 
 ## 📣 What's New
-- **[2025.4.24]** [MM-IFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit). You can directly evaluate your model on MM-IFEval with it ! Usage see [Evaluation using VLMEvalkit](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit) or more on Official repo of [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit) ! 🎉🎉🎉
+- **[2025.4.24]** [MM-IFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/open-compass/VLMEvalKit). You can directly evaluate your model on MM-IFEval with it ! Usage see [Evaluation using VLMEvalkit](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit) or more on Official repo of [VLMEvalkit](https://github.com/open-compass/VLMEvalKit) ! 🎉🎉🎉
 - **[2025.4.11]** Our MM-IFEngine Paper is released ! Check it at 📃[Arxiv: MM-IFEngine](https://arxiv.org/abs/2504.07957) ! Our Dataset will be open-sourced soon ! 🎉🎉🎉
 
 ## 🌟 Highlights
@@ -44,7 +44,7 @@ MLLMs on MM-IFInstruct-23k via SFT and MM-IFDPO-23k via DPO.
 Performance of existing MLLMs on MM-IFEval. We report the accuracy of easy and difficult problems and the average accuracy across all problems. The C-Level and P-Level refer to the compose-level and perception-level problems, respectively. The best performance in each section is highlighted in bold.
 
 ## 🚀 Evaluate on MM-IFEval
-### Option 1 (Recommended): Evaluation using [VLMEvalkit](https://github.com/OpenCompass/VLMEvalkit)
+### Option 1 (Recommended): Evaluation using [VLMEvalkit](https://github.com/open-compass/VLMEvalKit)
 
 ```bash
 # Note: Default snapshot of judge model (gpt-4o) in VLMEvalkit is currently gpt-4o-2024-05-13.
