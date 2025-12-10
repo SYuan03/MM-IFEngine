@@ -12,6 +12,7 @@
 </div>
 
 ## 📣 What's New
+- **[2025.12.10]** We have released the data filter script and instructions in [data_gen/data_filter](data_gen/data_filter), feel free to use it!
 - **[2025.9.16]** We have released the v2 dataset (annotated mainly by GPT-4o) in [ChrisDing1105/MMIF-23k](https://huggingface.co/datasets/ChrisDing1105/MMIF-23k), feel free to use it!
 - **[2025.4.26]** We have included both the SFT and DPO data in [ChrisDing1105/MMIF-23k](https://huggingface.co/datasets/ChrisDing1105/MMIF-23k) as part of **version 1.0** of the dataset. Feel free to download it! We are also planning to release **version 1.1** soon, scheduled for May! 🎉🎉🎉
 - **[2025.4.24]** [MM-IFEval](https://github.com/open-compass/VLMEvalKit/pull/938) has been merged into [VLMEvalkit](https://github.com/open-compass/VLMEvalKit). You can directly evaluate your model on MM-IFEval with it! Usage see [Evaluation using VLMEvalkit](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit) or more on the Official repo of [VLMEvalkit](https://github.com/open-compass/VLMEvalKit)! 🎉🎉🎉
