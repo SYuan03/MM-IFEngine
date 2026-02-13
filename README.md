@@ -12,6 +12,11 @@
 </div>
 
 ## 📣 What's New
+- ✨ Several prominent multimodal models have adopted **MM-IFEngine / MM-IFEval** either for benchmarking their multimodal instruction-following performance or for leveraging MM-IFEngine-generated datasets for training, including:
+   - [STEP3-VL-10B](https://github.com/stepfun-ai/Step3-VL-10B)
+   - [GLM-4.6V](https://docs.z.ai/guides/vlm/glm-4.6v)
+   - [Ming-Flash-Omni](https://arxiv.org/abs/2510.24821)
+   - [MiMo-VL](https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-RL-2508)
 - **[2025.12.10]** We have released the data filter script and instructions in [data_gen/data_filter](data_gen/data_filter), feel free to use it!
 - **[2025.9.16]** We have released the v2 dataset (annotated mainly by GPT-4o) in [ChrisDing1105/MMIF-23k](https://huggingface.co/datasets/ChrisDing1105/MMIF-23k), feel free to use it!
 - **[2025.4.26]** We have included both the SFT and DPO data in [ChrisDing1105/MMIF-23k](https://huggingface.co/datasets/ChrisDing1105/MMIF-23k) as part of **version 1.0** of the dataset. Feel free to download it! We are also planning to release **version 1.1** soon, scheduled for May! 🎉🎉🎉
