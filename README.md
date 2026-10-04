@@ -3,7 +3,7 @@
 
 [📃[Paper](https://arxiv.org/abs/2504.07957)]
 [🌐[Project Page](https://syuan03.github.io/MM-IFEngine/)]
-[🤗[Hugging Face](https://huggingface.co/datasets/ChrisDing1105/MMIF-23k)]
+[🤗[Hugging Face](https://huggingface.co/collections/ChrisDing1105/mm-ifengine-680b316d8dffa041ecc7290f)]
 [🛠️[Evaluation](https://github.com/SYuan03/MM-IFEngine?tab=readme-ov-file#option-1-recommended-evaluation-using-vlmevalkit)]
 </div>
 
@@ -12,6 +12,7 @@
 </div>
 
 ## 📣 What's New
+- **[2026.10.4]** We have released [MMIF-Reasoning-SFT-46K](https://huggingface.co/datasets/ChrisDing1105/MMIF-Reasoning-SFT-46K), with **46,165 curated multimodal SFT records**: 24,296 answer-only examples and 21,869 examples with reasoning traces. The release combines multi-mode reruns of existing MMIF prompts with 4,841 newly authored, conflict-checked tasks. Candidates were generated with DeepSeek-V4.1-Flash and GLM-5.3-Flash, then selected using deterministic constraint checks and model-based review. Row-level provenance and audit results are included. This is a data release; downstream training results are not yet available.
 - ✨ Several prominent multimodal models have adopted **MM-IFEngine / MM-IFEval** either for benchmarking their multimodal instruction-following performance or for leveraging MM-IFEngine-generated datasets for training, including:
    - [STEP3-VL-10B](https://github.com/stepfun-ai/Step3-VL-10B)
    - [GLM-4.6V](https://docs.z.ai/guides/vlm/glm-4.6v)
